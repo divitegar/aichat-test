@@ -1,0 +1,18 @@
+.bg-layout {
+  background-color: rgb(27, 26, 26);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.main-layout {
+  background-color: white;
+  position: absolute;
+  z-index: 20;
+  inset: 0;
+  margin: 100px 200px;
+}
+
+

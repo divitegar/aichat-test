@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# test AiChat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Description](#description)
+- [Initial Setup](#initial-setup)
+- [Running Development Environment](#running-development-environment)
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+movie app adalah sebuah platform yang menyediakan list movie, detail movie dan juga bisa menambahkan ke daftar favorit movie
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Abstract
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+movie app merupakan bentuk representasi untuk mengikuti test di aichat dan sebagai assesment terhadap skill yang saya miliki.
 
-### `npm test`
+### Feature
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+There are six movie app main features here:
 
-### `npm run build`
+1. home
+2. search movie
+3. list movie
+4. add favorite movie
+5. remove favorite movie
+6. list favorite movie
+7. detail movie
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Initial Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Proyek ini menggunakan :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. reactjs
+2. javascript
+3. html, css
+4. bootstrap
+5. react-icons
+6. react-redux
+7. react-router-dom
+8. redux
+9. redux-persist
+10. redux-thunk
 
-### `npm run eject`
+## Running Development Environment
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To install dependencies the server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+yarn start
+```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can see the app running by going to `http://localhost:3000/` via your browser.
